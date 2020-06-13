@@ -1,0 +1,77 @@
+.row-plan {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 100vh;
+  background-image: url('../../assets/empresa.jpg');
+  background-size: cover;
+}
+
+.item-plan {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  align-items: center;
+  height: 100%;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    margin: 0 40px;
+    box-sizing: content-box;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 0 1em  #a1a1a1;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .basic{
+  }
+  
+  .standard{
+    height: 450px;
+  }
+
+  .premium{
+  }
+
+  .ul-list{
+    margin: 20px 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .ul-list > li{
+    margin: 0px;
+    display: block;
+    font-family: 'Roboto';
+    padding: 4px 0px;
+    font-size: 16px;
+    transition: font-size 500ms;
+  }
+
+  
+
+  .ul-list > li:hover{
+    font-size: 20px;
+  }
+
+  h1{
+    margin-left: 20px;
+    text-shadow: 0 0 3em #a1a1a1;
+  }
+
+
+  
+
+  

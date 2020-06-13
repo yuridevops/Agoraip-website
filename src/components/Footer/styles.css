@@ -1,0 +1,5 @@
+footer {
+    background-color: #e2e2e2;
+    border-top: solid 1px rgb(219, 219, 219);
+    grid-area: footer;
+}

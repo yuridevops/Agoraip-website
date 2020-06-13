@@ -1,0 +1,11 @@
+.announce{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(152, 221, 250);
+    min-height: 25vh;
+    color: #fff;
+}
+
+
