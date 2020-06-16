@@ -3,3 +3,17 @@ footer {
     border-top: solid 1px rgb(219, 219, 219);
     grid-area: footer;
 }
+
+.footer-container{
+    background-color: rgb(236, 236, 236);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-container img{
+    width: 150px;  
+    padding-left: 20px; 
+}

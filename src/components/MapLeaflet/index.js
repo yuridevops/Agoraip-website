@@ -11,7 +11,13 @@ const customMarker = new L.icon({
 const MapLeaflet = ({ mapPoints }) => {
   return (
     <div id="map">
-      <Map className="map" center={[-26.7735429, -55.3210708]} zoom={5} dragging={false} zoomControl={false} scrollWheelZoom={false}>
+      <Map className="map" center={[-15.8290576, -61.1140448]} zoom={4} 
+      zoomControl={false} 
+      scrollWheelZoom={false} 
+      doubleClickZoom={false} 
+      touchZoom={false}
+      zoomAnimation={false}
+      >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -20,7 +26,7 @@ const MapLeaflet = ({ mapPoints }) => {
           mapPoints !== undefined && mapPoints.map(point => (
             <Marker position={[point.latitude, point.longitude]} icon={customMarker}>
               <Popup>
-                {`${point.company} - ${point.city} `}
+                {`${point.city} `}
                 </Popup>
             </Marker>
           ))

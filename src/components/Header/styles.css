@@ -57,6 +57,10 @@ header ul{
 
 .button-header-especial{
     font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #3366ff;
     color: #fff;
     border-radius: 5px;

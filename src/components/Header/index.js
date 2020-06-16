@@ -40,11 +40,14 @@ const Header = () => {
                     <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511952772090" target="_blank" >
                         <li className="button-header button-header-new" >
                             <span>Suporte</span>
-                            <span style={{fontSize: 12}}>+5511952772090 <FaWhatsapp color="#5af542" fontSize={15}/> </span>
+                            <span style={{ fontSize: 12 }}>(11) 95277-2090 <FaWhatsapp color="#5af542" fontSize={15} /> </span>
                         </li>
                     </a>
                 </ul>
-                <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5541992724349" className="button-header-especial" target="_blank" >Entre em contato</a>
+                <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5541992724349" className="button-header-especial" target="_blank" >
+                    <span>Entre em contato </span>
+                    <span>(41) 99272-4349 <FaWhatsapp color="#fff" fontSize={15} /></span>
+                    </a>
             </div>
         </header>
     )
