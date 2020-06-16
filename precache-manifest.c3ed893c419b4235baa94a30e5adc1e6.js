@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "846143ae1d7ce74d45c001e5c033a08a",
+    "revision": "a4635a1f533c852c9fa666de782b26f8",
     "url": "/agoraip-website/index.html"
   },
   {
