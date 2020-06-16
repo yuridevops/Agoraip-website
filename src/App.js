@@ -3,14 +3,14 @@ import Header from './components/Header';
 import './App.css'
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Switch, Route } from 'react-router-dom'
 import Info from './pages/Info';
 import Plans from './pages/Plans';
 
 function App() {
   return (
     <div className="container">
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <main>
           <Switch>
@@ -20,7 +20,7 @@ function App() {
           </Switch>
         </main>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
