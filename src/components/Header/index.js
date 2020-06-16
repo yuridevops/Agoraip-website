@@ -34,8 +34,8 @@ const Header = () => {
             <div className="container-contact">
                 <ul className="page-links">
                     <Link to="/" onClick={() => selectLink(0)} ><li className={isSelected(0)} >Inicio</li></Link>
-                    <Link to="/planos" onClick={() => selectLink(1)} ><li className={isSelected(1)} >Planos</li></Link>
-                    <Link to="/sobre" onClick={() => selectLink(2)}><li className={isSelected(2)} >Sobre nós</li></Link>
+                    <Link to="planos" onClick={() => selectLink(1)} ><li className={isSelected(1)} >Planos</li></Link>
+                    <Link to="sobre" onClick={() => selectLink(2)}><li className={isSelected(2)} >Sobre nós</li></Link>
 
                     <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511952772090" target="_blank" >
                         <li className="button-header button-header-new" >
