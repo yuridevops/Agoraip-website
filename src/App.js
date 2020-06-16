@@ -14,10 +14,9 @@ function App() {
         <Header />
         <main>
           <Switch>
-            <Route path="/agoraip-website" exact component={Home} />
-            <Route path="/agoraip-website/sobre" component={Info} />
-            <Route path="/agoraip-website/planos" component={Plans} />
-            <Route path="/agoraip-website/planos" component={Plans} />
+            <Route path="/" exact component={Home} />
+            <Route path="/sobre" component={Info} />
+            <Route path="/planos" component={Plans} />
           </Switch>
         </main>
         <Footer />
